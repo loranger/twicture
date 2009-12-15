@@ -1,0 +1,15 @@
+body,
+body *
+{
+	margin : 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+#picture
+{
+	box-shadow:1px 1px 10px #778899;
+	-moz-box-shadow:1px 1px 10px #778899;
+	-webkit-box-shadow:1px 1px 10px #778899;
+	border: 0;
+}

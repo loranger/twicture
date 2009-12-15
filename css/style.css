@@ -1,0 +1,210 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+}
+body
+{
+	background-color: #DDEEF6;
+	font-family: "Lucida Grande",Arial,Sans-serif;
+	font-size: 11px;
+	text-align: center;
+	color: #778899;
+}
+
+a
+{
+	outline: none;
+}
+
+img
+{
+	border: 0;
+}
+
+fieldset
+{
+	display: inline;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #5599BB;
+	padding: 1em 3em;
+	color: #778899;
+}
+
+legend
+{
+	padding-left: 90px;
+	padding-right: 1em;
+	line-height: 55px;
+	background-image:url(http://a2.twimg.com/a/1258674567/images/frontpage-bird.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#signin
+{
+	text-align: right;
+}
+
+input
+{
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #AACCEE;
+	width: 18em;
+	padding: 5px;
+	margin: 1em;
+	color: #778899;
+}
+
+#signin #submit,
+input[type=submit]
+{
+	background:#3399DD url(http://s.twimg.com/a/1258674567/images/bg-btn-blue.png) repeat-x scroll 0 0;
+	border:1px solid #3399DD;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding: 4px 10px 5px;
+	text-shadow:0 -1px 0 #3399DD;
+	width: 6em;
+}
+
+#signin #submit:hover,
+#signin #submit:focus {
+	background-position: 0 -5px;
+}
+
+#content
+{
+	min-height: 90%;
+	padding-top: 2em;
+}
+
+#picture
+{
+	box-shadow:1px 1px 15px #778899;
+	-moz-box-shadow:1px 1px 15px #778899;
+	-webkit-box-shadow:1px 1px 15px #778899;
+	/*border: 3px solid #000000;*/
+}
+
+#message
+{
+	margin: 1em auto;
+	text-align: justify;
+	color:#333333;
+	font-size: 1.3em;
+}
+
+#date
+{
+	margin: auto;
+	margin: 1em auto;
+	color: #999999;
+	text-align: left;
+}
+
+#help,
+#error
+{
+	width: 30%;
+	margin: auto;
+	text-align: left;
+}
+
+.success
+{
+	color: #5e9d00;
+}
+
+.error
+{
+	color: #892500;
+}
+
+.pic
+{
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+
+.delete div
+{
+	background-color: rgba(255, 255, 255, 0.6);
+	top: 3px;
+	color: #000000;
+	font-weight: bolder;
+	left: 9px;
+	height: 80px;
+	line-height: 80px;
+	position: absolute;
+	width: 80px;
+	z-index: 1;
+	display: none;
+}
+
+.delete:hover div
+{
+	display: block;
+}
+
+#more
+{
+	margin-top: 2em;
+}
+
+#more a
+{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	line-height: 20px;
+	padding:5px 15px 6px;
+	background-color: #DDDDDD;
+	background-image: url(http://s.twimg.com/a/1260817727/images/buttons/bg-btn.gif);
+	border: 1px solid #CCCCCC;
+	border-color:#DDDDDD #DDDDDD #CCCCCC;
+	color:#000000;
+	text-decoration: none;
+	background-position:0 -206px;
+}
+
+#more a:hover
+{
+	border-color:#999999 #999999 #888888;
+	background-position: 0 -200px;
+}
+
+#more a:active
+{
+	border-color:#999999 #999999 #888888;
+	background-position: 0 -6px;
+}
+
+#notfound
+{
+	background-image: url(http://s.twimg.com/images/not-found.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 480px;
+	line-height: 480px;
+	margin: auto;
+	width: 400px;
+}
+
+#footer
+{
+	margin: 1em;
+}
+
+#footer a
+{
+	margin: 0 .3em;
+	text-decoration: none;
+	color: #778899;
+}

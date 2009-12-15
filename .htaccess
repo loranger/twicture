@@ -1,0 +1,19 @@
+# TwitPic has 4M limitation, so does Twicture
+php_value upload_max_filesize 4194304
+
+# Protect database
+<Files ~ "\.db$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+Options FollowSymLinks -Indexes
+RewriteEngine on
+
+# RewriteCond %{HTTP_USER_AGENT} ^Opera.*
+# RewriteRule ^/$ /index_opera.php [L]
+
+#RewriteRule (.+)?data$ $1 [R,L]
+
+RewriteRule (help|view|admin|delete|backup|empty)$ %{REQUEST_URI}/ [R,L]
+RewriteRule (help|view|admin|delete|backup|empty)/(.+)?$ index.php?action=$1&item=$2

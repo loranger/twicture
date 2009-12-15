@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twicture\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-15 02:16+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: loranger <loranger@free.fr>\n"
+"Language-Team:  <loranger@free.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ../../../../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:20
+msgid "Error"
+msgstr "Erreur"
+
+#: index.php:20
+msgid "Errors"
+msgstr "Erreurs"
+
+#: index.php:42
+msgid "Invalid twitter username or password"
+msgstr "Utilisateur ou mot de passe twitter invalide"
+
+#: index.php:50
+msgid "Failed to add image to Twicture"
+msgstr "Echec lors de l'ajout de l'image à Twicture"
+
+#: index.php:76
+msgid "Huh ?"
+msgstr ""
+
+#: index.php:78
+msgid "Picture not found"
+msgstr "Image non trouvée"
+
+#: lib/Auth.php:17
+msgid "Twitter account"
+msgstr "Compte Twitter"
+
+#: lib/Auth.php:19
+msgid "Username"
+msgstr "Utilisateur"
+
+#: lib/Auth.php:20
+msgid "Password"
+msgstr "Mot de passe"
+
+#: lib/Install.php:41
+#, php-format
+msgid "<a href=\"%s\">%s extension</a> is missing"
+msgstr "<a href=\"%s\">extension %s</a> manquante"
+
+#: lib/Install.php:45
+#, php-format
+msgid "%s extension is missing"
+msgstr "extension %s manquante"
+
+#: lib/Install.php:50
+#, php-format
+msgid "%s extension found"
+msgstr "extension %s trouvée"
+
+#: lib/Install.php:102
+msgid "\"data\" folder is writable"
+msgstr "le répertoire \"data\" est accessible en écriture"
+
+#: lib/Install.php:104
+#, php-format
+msgid "cannot write in \"data\" folder. Check write permissions (currently %s)"
+msgstr "impossible d'écrire dans le répertoire \"data\". Vérifiez les permissions (actuellement %s)"
+
+#: lib/Install.php:140
+#, php-format
+msgid "\"%s\" file already exists in %s"
+msgstr "le fichier \"%s\" existe déjà dans %s"
+
+#: lib/Install.php:143
+#, php-format
+msgid "\"%s\" file created in %s"
+msgstr "fichier \"%s\" créé dans %s"
+
+#: lib/Install.php:145
+#, php-format
+msgid "cannot create file \"%s\" in \"%s\" folder. Check write permissions (currently %s)"
+msgstr "impossible de créer le fichier \"%s\" dans le répertoire \"%s\". Vérifiez les permissions (actuellement %s)"
+
+#: lib/Install.php:154
+#, php-format
+msgid "\"%s\" database already exists"
+msgstr "la base de données \"%s\" existe déjà"
+
+#: lib/Install.php:159
+#, php-format
+msgid "\"%s\" database created"
+msgstr "base de données \"%s\" créée"
+
+#: lib/Install.php:180
+#, php-format
+msgid "user \"%s\" added (password is \"%s\")"
+msgstr "utilisateur \"%s\" ajouté (le mot de passe est \"%s\")"
+
+#: lib/Page.php:120
+msgid "list"
+msgstr "liste"
+
+#: lib/Page.php:127
+msgid "help"
+msgstr "aide"
+
+#: lib/PageAdmin.php:10
+#: lib/PageHelp.php:18
+msgid "Administration"
+msgstr ""
+
+#: lib/PageAdmin.php:18
+#, php-format
+msgid "Manage %s's twitter pictures"
+msgstr ""
+
+#: lib/PageAdmin.php:26
+msgid "Delete"
+msgstr "Supprimer"
+
+#: lib/PageAdmin.php:32
+msgid "Backup all pictures"
+msgstr "Archiver toutes les images"
+
+#: lib/PageAdmin.php:33
+msgid "Delete all pictures"
+msgstr "Supprimer toutes les images"
+
+#: lib/PageHelp.php:10
+msgid "Help"
+msgstr "Aide"
+
+#: lib/PageHelp.php:12
+#: lib/PageHelp.php:13
+#: lib/PageHelp.php:14
+msgid "Image Service API Endpoint"
+msgstr ""
+
+#: lib/PageHelp.php:13
+msgid "API endpoint requires at least \"username\", \"password\" and \"media\" datas to store the uploaded image. \"message\" data is optional."
+msgstr "L'API requiert les champs \"username\", \"password\" et \"media\" pour stocker l'image uploadée. Le champ \"message\" est optionnel."
+
+#: lib/PageHelp.php:14
+msgid "A valid endpoint post will return a \"mediaurl\" node containing the location of the uploaded image. Shortened or not, depending on the current Twicture settings."
+msgstr "Un post valide vers l'API renverra un nœud \"mediaurl\" contenant l'emplacement de l'image uploadée. Cet emplacement sera raccourci ou non, en fonction des réglages de Twicture."
+
+#: lib/PageHelp.php:16
+msgid "View image"
+msgstr "Afficher une image"
+
+#: lib/PageHelp.php:16
+#, php-format
+msgid "%s[IMAGE ID]<br /><br />Message sent with the image will be shown as a tweet under the picture."
+msgstr "%s[IMAGE ID]<br /><br />Le message envoyé avec l'image sera affiché comme un tweet sous l'image."
+
+#: lib/PageHelp.php:26
+msgid "Requirements"
+msgstr "Exigences"
+
+#: lib/require.php:65
+#, php-format
+msgid "next %s"
+msgstr "%s prochaine"
+
+#: lib/require.php:67
+msgid "the day after tomorrow"
+msgstr "après-demain"
+
+#: lib/require.php:69
+msgid "tomorrow"
+msgstr "demain"
+
+#: lib/require.php:71
+msgid "today"
+msgstr "aujourd'hui"
+
+#: lib/require.php:73
+msgid "yesterday"
+msgstr "hier"
+
+#: lib/require.php:75
+msgid "the day before yesterday"
+msgstr "avant-hier"
+
+#: lib/require.php:77
+#, php-format
+msgid "last %s"
+msgstr "%s dernier"
+
+#: lib/require.php:80
+msgid "%A %d %B %Y"
+msgstr "le %A %d %B %Y"
+
+#: lib/require.php:83
+msgid " at "
+msgstr " à "
+
+#: lib/Upload.php:50
+#, php-format
+msgid "Image larger than %s"
+msgstr "Image plus lagre que %s"
+
+#: lib/Upload.php:54
+msgid "Image not found or partially uploaded"
+msgstr "Image introuvable ou partiellement uploadée"
+
+#: lib/Upload.php:58
+msgid "Failed to write image to disk"
+msgstr "Echec lors de l'écriture sur le disque"
+
+#: lib/Upload.php:61
+msgid "Invalid image type"
+msgstr "Type d'image invalide"
+
+#: lib/Upload.php:64
+msgid "Unknown upload error"
+msgstr "Erreur d'upload inconnue"
+
+#~ msgid "System state"
+#~ msgstr "État du système"
+#~ msgid "\"message\" data is optional."
+#~ msgstr "Le champ \"message\" est optionnel."
+
