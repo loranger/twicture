@@ -4,7 +4,7 @@ TWICTURE
 Your own Twitter picture hosting service
 ----------------------------------------
 
-Twicture is the Tweetie2 perfect companion
+The Tweetie2 perfect companion
 
 **Requirements**
 
@@ -18,4 +18,4 @@ Twicture is the Tweetie2 perfect companion
 
 **Getting started**
 
-Please refer to the [installation instructions](http://wiki.github.com/loranger/twicture)
+Please refer to the [installation instructions](http://wiki.github.com/loranger/twicture/installation)
