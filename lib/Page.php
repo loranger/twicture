@@ -92,6 +92,8 @@ class Page
 
 	function __toString()
 	{
+		header('Content-type: text/html; charset=UTF-8');
+
 		$out = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"'."\n";
 		$out .= '	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">'."\n\n";
 		$out .= '<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">'."\n";
@@ -100,6 +102,10 @@ class Page
 		{
 			$this->addIPhoneHeaders();
 			$this->addCSS( Twicture()->getURL(true) . 'css/iphone.css' );
+		}
+		else
+		{
+			$this->addCSS( Twicture()->getURL(true) . 'css/emoji.css' );
 		}
 		foreach ($this->meta as $meta) {
 			$out .= '	<meta';

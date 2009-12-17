@@ -27,6 +27,7 @@ require_once( LIBPATH . DIRECTORY_SEPARATOR . 'Twicture.php' );
 require_once( LIBPATH . DIRECTORY_SEPARATOR . 'Picture.php' );
 require_once( LIBPATH . DIRECTORY_SEPARATOR . 'Upload.php' );
 require_once( LIBPATH . DIRECTORY_SEPARATOR . 'Admin.php' );
+require_once( LIBPATH . DIRECTORY_SEPARATOR . 'emoji.php' );
 
 $domain = 'Twicture';
 $locales = array('fr_FR', 'fr_FR.utf8');

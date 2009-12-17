@@ -65,11 +65,14 @@ switch( getParam('action') )
 			Page()->addCss( $css );
 			$pic = '<img src="'.$picture->getImageURL(true).'" alt="'.$picture->getFilename().'" id="picture"/>'."\n";
 			Page()->addContent($pic);
-			if( $picture->getMessage() )
+			if ( !Page()->browserIsIPhone() )
 			{
-				Page()->addContent( sprintf('<div id="message" style="width: %dpx;">&#x275D; %s &#x275E;</div>', $picture->getWidth(), $picture->getMessage() ) );
+				if( $picture->getMessage() )
+				{
+					Page()->addContent( sprintf('<div id="message" style="width: %dpx;">&#x275D; %s &#x275E;</div>', $picture->getWidth(), $picture->getMessage() ) );
+				}
+				Page()->addContent( sprintf('<div id="date" style="width: %dpx;">%s</div>', $picture->getWidth(), $picture->getDate() ) );
 			}
-			Page()->addContent( sprintf('<div id="date" style="width: %dpx;">%s</div>', $picture->getWidth(), $picture->getDate() ) );
 		}
 		else
 		{

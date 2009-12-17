@@ -96,6 +96,7 @@ class Picture
 		$img->destroy();
 		$shadow->destroy();
 
+		$thumb->setImageMatte(true);
 		$thumb->writeImage( DATAPATH . DIRECTORY_SEPARATOR . $this->getThumbFilename() . '.' . $thumb->getImageFormat() );
 	}
 
@@ -122,7 +123,10 @@ class Picture
 	{
 		if( trim($this->message) != '' )
 		{
-			return trim($this->message);
+			$message = trim($this->message);
+			$message = emoji_softbank_to_unified($message);
+			$message = emoji_unified_to_html($message);
+			return $message;
 		}
 		return false;
 	}
