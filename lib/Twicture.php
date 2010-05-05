@@ -22,7 +22,8 @@ class Twicture
 			$url .= 'http://' . $_SERVER['HTTP_HOST'];
 		}
 		$url .= dirname( $_SERVER['PHP_SELF'] );
-		if( !empty( $url ) )
+
+		if( substr($url, -1) != '/' )
 		{
 			$url .=  '/';
 		}
